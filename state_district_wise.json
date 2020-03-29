@@ -2,7 +2,7 @@
   "Kerala": {
     "districtData": {
       "Thrissur": {
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": ""
       },
       "Alappuzha": {
@@ -10,7 +10,7 @@
         "lastupdatedtime": ""
       },
       "Kasaragod": {
-        "confirmed": 83,
+        "confirmed": 90,
         "lastupdatedtime": ""
       },
       "Pathanamthitta": {
@@ -18,11 +18,11 @@
         "lastupdatedtime": ""
       },
       "Kannur": {
-        "confirmed": 25,
+        "confirmed": 33,
         "lastupdatedtime": ""
       },
       "Ernakulam": {
-        "confirmed": 19,
+        "confirmed": 20,
         "lastupdatedtime": ""
       },
       "Kottayam": {
@@ -30,7 +30,7 @@
         "lastupdatedtime": ""
       },
       "Thiruvananthapuram": {
-        "confirmed": 7,
+        "confirmed": 8,
         "lastupdatedtime": ""
       },
       "Idukki": {
@@ -38,7 +38,7 @@
         "lastupdatedtime": ""
       },
       "Malappuram": {
-        "confirmed": 9,
+        "confirmed": 10,
         "lastupdatedtime": ""
       },
       "Kozhikode": {
@@ -46,7 +46,7 @@
         "lastupdatedtime": ""
       },
       "Palakkad": {
-        "confirmed": 4,
+        "confirmed": 5,
         "lastupdatedtime": ""
       },
       "Wayanad": {
@@ -134,11 +134,11 @@
         "lastupdatedtime": ""
       },
       "Jhunjhunu": {
-        "confirmed": 6,
+        "confirmed": 7,
         "lastupdatedtime": ""
       },
       "Bhilwara": {
-        "confirmed": 20,
+        "confirmed": 21,
         "lastupdatedtime": ""
       },
       "Jodhpur": {
@@ -149,7 +149,7 @@
         "confirmed": 10,
         "lastupdatedtime": ""
       },
-      "Pratapgarh ": {
+      "Pratapgarh": {
         "confirmed": 2,
         "lastupdatedtime": ""
       },
@@ -184,6 +184,10 @@
       "Palwal": {
         "confirmed": 1,
         "lastupdatedtime": ""
+      },
+      "Ambala": {
+        "confirmed": 1,
+        "lastupdatedtime": ""
       }
     }
   },
@@ -206,7 +210,7 @@
         "lastupdatedtime": ""
       },
       "Gautam Buddha Nagar": {
-        "confirmed": 25,
+        "confirmed": 29,
         "lastupdatedtime": ""
       },
       "Moradabad": {
@@ -253,16 +257,20 @@
   },
   "Tamil Nadu": {
     "districtData": {
+      "Kancheepuram": {
+        "confirmed": 1,
+        "lastupdatedtime": ""
+      },
       "Chennai": {
-        "confirmed": 20,
+        "confirmed": 18,
         "lastupdatedtime": ""
       },
       "Erode": {
-        "confirmed": 5,
+        "confirmed": 9,
         "lastupdatedtime": ""
       },
       "Coimbatore": {
-        "confirmed": 1,
+        "confirmed": 5,
         "lastupdatedtime": ""
       },
       "Tiruneveli": {
@@ -289,6 +297,10 @@
         "confirmed": 1,
         "lastupdatedtime": ""
       },
+      "Chengalpattu": {
+        "confirmed": 1,
+        "lastupdatedtime": ""
+      },
       "Thanjavur": {
         "confirmed": 1,
         "lastupdatedtime": ""
@@ -310,19 +322,23 @@
         "lastupdatedtime": ""
       },
       "Srinagar": {
-        "confirmed": 13,
+        "confirmed": 15,
         "lastupdatedtime": ""
       },
       "Bandipore": {
-        "confirmed": 5,
+        "confirmed": 9,
         "lastupdatedtime": ""
       },
       "Rajouri": {
         "confirmed": 3,
         "lastupdatedtime": ""
       },
-      "Bandipora": {
-        "confirmed": 4,
+      "Budgam": {
+        "confirmed": 2,
+        "lastupdatedtime": ""
+      },
+      "Baramullab": {
+        "confirmed": 1,
         "lastupdatedtime": ""
       }
     }
@@ -376,21 +392,25 @@
       "Davanagere": {
         "confirmed": 2,
         "lastupdatedtime": ""
+      },
+      "Unknown": {
+        "confirmed": 2,
+        "lastupdatedtime": ""
       }
     }
   },
   "Maharashtra": {
     "districtData": {
       "Pune": {
-        "confirmed": 28,
+        "confirmed": 29,
         "lastupdatedtime": ""
       },
       "Mumbai": {
-        "confirmed": 67,
+        "confirmed": 71,
         "lastupdatedtime": ""
       },
       "Nagpur": {
-        "confirmed": 9,
+        "confirmed": 10,
         "lastupdatedtime": ""
       },
       "Thane": {
@@ -418,11 +438,11 @@
         "lastupdatedtime": ""
       },
       "Unknown": {
-        "confirmed": 37,
+        "confirmed": 40,
         "lastupdatedtime": ""
       },
       "Sangli": {
-        "confirmed": 24,
+        "confirmed": 25,
         "lastupdatedtime": ""
       },
       "Satara": {
@@ -470,10 +490,6 @@
         "lastupdatedtime": ""
       },
       "Ludhiana": {
-        "confirmed": 1,
-        "lastupdatedtime": ""
-      },
-      "Ambala": {
         "confirmed": 1,
         "lastupdatedtime": ""
       }
@@ -557,8 +573,12 @@
         "confirmed": 5,
         "lastupdatedtime": ""
       },
-      "Unknown": {
-        "confirmed": 3,
+      "Purba Medinipur": {
+        "confirmed": 2,
+        "lastupdatedtime": ""
+      },
+      "Kalimpong": {
+        "confirmed": 1,
         "lastupdatedtime": ""
       }
     }
@@ -574,7 +594,7 @@
   "Chhattisgarh": {
     "districtData": {
       "Raipur": {
-        "confirmed": 3,
+        "confirmed": 4,
         "lastupdatedtime": ""
       },
       "Rajnandgaon": {
@@ -586,10 +606,6 @@
         "lastupdatedtime": ""
       },
       "Durg": {
-        "confirmed": 1,
-        "lastupdatedtime": ""
-      },
-      "Unknown": {
         "confirmed": 1,
         "lastupdatedtime": ""
       }
@@ -625,6 +641,10 @@
         "confirmed": 8,
         "lastupdatedtime": ""
       },
+      "Ahmadabad": {
+        "confirmed": 3,
+        "lastupdatedtime": ""
+      },
       "Mehsana": {
         "confirmed": 1,
         "lastupdatedtime": ""
@@ -650,11 +670,11 @@
         "lastupdatedtime": ""
       },
       "Indore": {
-        "confirmed": 16,
+        "confirmed": 20,
         "lastupdatedtime": ""
       },
       "Ujjain": {
-        "confirmed": 3,
+        "confirmed": 4,
         "lastupdatedtime": ""
       },
       "Gwalior": {
@@ -716,6 +736,10 @@
       "North Goa": {
         "confirmed": 3,
         "lastupdatedtime": ""
+      },
+      "Unknown": {
+        "confirmed": 2,
+        "lastupdatedtime": ""
       }
     }
   },
@@ -738,7 +762,7 @@
   "Unknown": {
     "districtData": {
       "Unknown": {
-        "confirmed": 49,
+        "confirmed": 219,
         "lastupdatedtime": ""
       }
     }
