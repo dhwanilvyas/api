@@ -1,9 +1,11 @@
 const fs = require('fs');
+const moment = require("moment");
 const rawData = require('./raw_data');
 
 console.log('Starting district wise data processing');
 try {
   const StateDistrictWiseData = rawData.raw_data.reduce((acc, row) => {
+    const isToday = moment().utcOffset(330).isSame(moment(row.dateannounced, "DD-MM-YYYY"), "day");
     let stateName = row.detectedstate;
       if(!stateName) {
         stateName = 'Unknown';
@@ -23,11 +25,17 @@ try {
 //         deaths: 0,
         lastupdatedtime: "",
 //         recovered: 0,
+        delta: {
+          confirmed: 0
+        }
       };
     }
     const currentDistrict = acc[stateName].districtData[districtName];
   
     currentDistrict.confirmed++;
+    if (isToday) {
+      currentDistrict.delta.confirmed++;
+    }
 //     if(row.currentstatus === 'Hospitalized') {
 //       currentDistrict.active++;
 //     } else if(row.currentstatus === 'Deceased') {
@@ -35,11 +43,11 @@ try {
 //     } else if(row.currentstatus === 'Recovered') {
 //       currentDistrict.recovered++;
 //     }
-  
+
     return acc;
   
   }, {});
-  
+
   fs.writeFileSync('state_district_wise.json', JSON.stringify(StateDistrictWiseData, null, 2));
   console.log('Starting district wise data processing ...done');
 } catch(err) {
